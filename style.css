@@ -1,0 +1,70 @@
+@import url('https://use.typekit.net/fmp1wrg.css');
+
+body {
+  margin: 0;
+  background-color: #666666;
+}
+
+.body {
+  margin: auto;
+  padding: 0;
+  background-color: #000000;
+  opacity: 0.8;
+
+  max-width: 900px;
+  min-height: 100vh;
+
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+  gap: 0.25rem;
+}
+.intro {
+  margin-top: 45px;
+  color: #ffffff;
+  text-align: center;
+}
+
+.imputBox {
+  width: 90%;
+  height: 3rem;
+
+  color: #666666;
+  font-size: 1rem;
+  padding: 0 3rem;
+
+  border: none;
+  border-radius: 2rem;
+  border-style: solid;
+  box-shadow: 0px 0px 8px #ffcc99;
+}
+.imputBox:focus {
+  outline: none;
+}
+
+.lightText {
+  color: #ffcc99;
+  font-style: italic;
+  align-self: flex-start;
+  margin: 1rem 10%;
+}
+
+.carBorder {
+  width: 90%;
+  margin: 1rem;
+  padding: 1rem;
+  gap: 0.25rem;
+
+  background-color: #ffcc99;
+  opacity: 0.8;
+  border-radius: 0.8rem;
+
+  color: #000000;
+}
+.listOneLine {
+  margin: 0;
+  padding: 0;
+  list-style: none;
+  display: flex;
+  justify-content: space-between;
+}
